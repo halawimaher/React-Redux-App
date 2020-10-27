@@ -1,3 +1,6 @@
 {
-    "mongoURI": "mongodb+srv://Maher:newpass13@b06connector.y0mzj.mongodb.net/<dbname>?retryWrites=true&w=majority"
+    "mongoURI": "mongodb+srv://Maher:newpass13@b06connector.y0mzj.mongodb.net/<dbname>?retryWrites=true&w=majority",
+    "jwtSecret": "mysecrettoken",
+    "githubClientId": "787b1e3743c25fb43b88",
+    "githubSecret": "488cbdf4fd781cd3c6da234bee40321cedc530dd"
 }
