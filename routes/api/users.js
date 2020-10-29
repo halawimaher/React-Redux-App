@@ -22,9 +22,9 @@ router.post('/', [
     if(!errors.isEmpty()){
         return res.status(400).json({errors: errors.array()});
     }
-
-    const { name, email, password } = req.body;
-
+    
+    const { name, password } = req.body;
+    const email = req.body.email.toLowerCase();
     try {
         // Check if user exists
         let user = await User.findOne({ email });
